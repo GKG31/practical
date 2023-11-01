@@ -19,25 +19,26 @@ class bankaccount
    // cout<<"enter amount";
    // cin>>req;
  }
-    void depo(int b)
+    int depo(int b,int d)
     
-    {   int d;
-        
-        cout<<"enter deposite amount:";
+    {
+       // cout<<"enter amount:";
+       // cin>>b;
+        cout<<"enter amount:";
         cin>>d;
-        cout<<"Total balance is: "<< b+d<<endl;
+        cout<<"Total amount is: "<< b+d<<endl;
        
     }
 
-    int with(int b)
+    int with(int b,int r)
     
-    {  int r;
+    {
         
-        cout<<"enter withdraw amount:";
+        cout<<"enter amount:";
         cin>>r;
     if(b>=r)
     {
-        cout<<" available balance is:"<<b-r<<endl;
+        cout<<"balance available is:"<<b-r<<endl;
     }
     else 
     {
@@ -51,8 +52,8 @@ int main()
 { 
     int a,b,c;
     bankaccount ac1(a,b,c);
-    ac1.depo(5000);
-    ac1.with(5000);
+    ac1.depo(500,0);
+    ac1.with(500,0);
     
 
 }

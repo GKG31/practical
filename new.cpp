@@ -19,11 +19,15 @@ class bankaccount
    // cout<<"enter amount";
    // cin>>req;
  }
+    
+
+
     void depo(int b)
     
     {   int d;
-        
-        cout<<"enter deposite amount:";
+       cout<<"*****WELCOME TO THE WORLD'S BANK*****"; 
+       cout<<"\n*****HERE IT IS YOUR DEPOSITE PANEL*****";
+        cout<<"\nPLEASE ENTER YOUR DEPOSITE AMOUNT:";
         cin>>d;
         cout<<"Total balance is: "<< b+d<<endl;
        
@@ -37,7 +41,7 @@ class bankaccount
         cin>>r;
     if(b>=r)
     {
-        cout<<" available balance is:"<<b-r<<endl;
+        cout<<" Available balance is:"<<b-r<<endl;
     }
     else 
     {

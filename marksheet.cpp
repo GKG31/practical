@@ -9,8 +9,12 @@ class student
     float percentage;
 
     public:
+    void setdata(int,int,int,int,int,float);
 
-    student()
+    void gettotal()
+    {
+        
+    }
 
    int m=maths,e=english,s=science,g=gujarati,t=total;
    float p=percentage;
